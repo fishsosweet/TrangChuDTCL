@@ -1,0 +1,225 @@
+body {
+    overflow-x:hidden;
+    background-color: 	black   ;
+    height: auto;
+}
+       *{
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TrangChu{
+        background-color: 	#000033;
+        width: 1520px;
+        position: relative;
+        top: -10px;
+        height: 3210px;
+        overflow: hidden;
+    }
+    .head{
+        width: auto;
+        height: 50px;
+        border: 1px solid blue;
+        z-index: 10;
+        position: relative;
+    }
+    .menungang{
+        background-color:black ;
+        width: auto;
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+        border-bottom:1px solid blue ;
+    }
+    .list1 li{
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        float: left;
+        line-height: 50px;
+
+        position: relative;
+        left: 90px;
+        top:-10px;
+    }
+    .list2 li{
+        width: 150px;
+        height: 30px;
+        display: inline-block;
+        float: right;
+        line-height: 50px;
+
+        position: relative;
+        right: 90px;
+        top:-10px;
+    }
+    .list1 li a{
+        font-size: 18px;
+        color: aliceblue;
+        position: relative;
+        text-decoration-color:  black;
+        top:-10px;
+    }
+    .list2 li a{
+        font-size: 18px;
+        text-decoration-color:  black;
+        color: aliceblue;
+        position: relative;
+        top:-10px;
+    }
+    .menungang a:hover{
+        display: block;
+        text-decoration-color:  blue;
+    }
+    .tamgiac{
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent ;
+  border-right: 40px solid transparent;
+  border-top: 60px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-20px
+}
+.logo{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+top: -50px;
+}
+.footer{
+    width: 100%;
+    height:900px;
+    background-color: black;
+    position: relative;
+    top:-230px;
+    border-top: 2px solid blue;
+}
+.mxh{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+.vienmxh{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    line-height: 30px;
+    position: relative;
+    left: 300px;
+    margin: 10px;
+}
+.thuonghieu{
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    clear: left;
+    position: relative;
+    top:-10px;
+    left: -15px;
+}
+.CPC{
+    width: 120px;
+}
+.riot{
+    width: 200px;
+}
+.vng{
+    width: 120px;
+}
+.loinhan{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top:120px;
+}
+.sub-menu li{
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    background-color: black   ;
+} 
+.sub-menu {
+position: relative;
+width: 150px;
+left: 91px;
+top:-10px;
+display: none;
+
+} 
+.list2 li:hover .sub-menu {
+display: block;
+border-right: 1px solid #000033;
+} 
+.logo18{
+    width: 90px;
+    position: fixed;
+    top: 20px;
+    border: 1px solid white;
+    z-index: 20;
+}
+    .cactintuc img{
+    transition-duration: 0.3s;
+    margin: 0 10px 5px 0;
+    width: 300px;
+    height: 200px
+}
+.cactintuc img:hover{
+    transform: scale(1.05);
+    width: 325px;
+    height: 225px;
+}
+.background2 {
+    background-color: white;
+    height: 1000px;
+    width:1200px;
+   position: relative; bottom: -150px;
+}
+.chu{
+    font-size: 20px;
+    color: black;
+}
+.tintuc{
+    font-size: 50px;
+    color :white;
+}
+.hienthem{
+    font-size: 25px; 
+    color: black;
+}
+
+    .phongchuto{
+    	font-size: 60px;
+    	color: white;
+    }
+    .nenden{
+    	background-color: black;
+    	width: 1525px ; 
+    	height: 150px;
+    }
+    .chu{
+    	font-size: 20px;
+    	color: white ; 
+    	text-align: left;
+    	position: relative;left: 200px;bottom: 300px
+    }
+    .mau{
+    	font-size: 35px;
+    	color: #FFCC00;
+    	text-align: left;
+    	position: relative;left: 200px;bottom: 300px;
+    }
+    .h1{
+        font-size: 35px;
+        color: white;
+        text-align: left; 
+        position: relative; left: 200px; bottom: 300px;
+    }
+   

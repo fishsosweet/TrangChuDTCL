@@ -1,0 +1,163 @@
+body{
+    overflow: hidden;
+    background-color: #070083;
+}
+#content
+{
+    width: 1500px;
+    height: 750px;
+    animation: slideShow 10s infinite;
+}
+#content1
+{
+    width: 1500px;
+    height: 750px;
+    animation: slideShow1 10s infinite;
+}
+#content2
+{
+    width: 1500px;
+    height: 750px;
+    animation: slideShow 10s infinite;
+}
+#content3
+{
+    width: 1500px;
+    height: 750px;
+    animation: slideShow1 10s infinite;
+}
+#content4
+{
+    width: 1500px;
+    height: 750px;
+    animation: slideShow2 10s infinite;
+}
+#content5
+{
+    width: 1500px;
+    height: 750px;
+    animation: slideShow2 10s infinite;
+}
+
+#anh {
+float: right;
+justify-content: center;
+align-items: center;
+
+}
+#anh1 {
+float: right;
+justify-content: center;
+align-items: center;
+
+}
+#anh2 {
+float: left;
+justify-content: center;
+align-items: center;
+
+}
+#anh3 {
+float: right;
+justify-content: center;
+align-items: center;
+
+}
+#anh4 {
+justify-content: center;
+align-items: center;
+
+}
+#anh5 {
+float: right;
+justify-content: center;
+align-items: center;
+
+}
+@keyframes slideShow
+{
+30%{
+transform: translate(30px);}
+}
+@keyframes slideShow1
+{
+30%{
+transform: translate3d(20px, 10px, 10px);
+}}
+@keyframes slideShow2
+{
+30%{
+transform: translateY(50px);
+}}
+#web1 {
+width: 300px;
+height: 60px;
+border: 1px solid #AAAAAA;
+position:relative;
+left: 570px;
+background-color:white;
+bottom: 4300px;
+border-radius: 30px;
+box-shadow: 5px 5px 20px black;
+}
+#web1:hover{
+opacity: 0.75;
+}
+#web1 img {
+border-radius: 50%;
+width: 60px;
+position: relative;
+}
+#web2 {
+width: 300px;
+height: 60px;
+border: 1px solid #AAAAAA;
+position:relative;
+left: 570px;
+background-color:white;
+bottom: 4250px;
+border-radius: 30px;
+box-shadow: 5px 5px 20px black;
+}
+#web2 img {
+border-radius: 50%;
+width: 60px;
+position: relative;
+left: 1px;
+top: 1px;
+}
+#web2:hover{
+opacity: 0.75;
+}
+#web3 {
+width: 300px;
+height: 60px;
+border: 1px solid #AAAAAA;
+position:relative;
+left: 570px;
+background-color:white;
+bottom: 4200px;
+border-radius: 30px;
+box-shadow: 5px 5px 20px black;
+}
+#web3 img {
+border-radius: 50%;
+width: 60px;
+position: relative;
+left: 1px;
+}
+#web3:hover{
+opacity: 0.75;
+}
+p {
+position: relative;
+bottom: 60px;
+left: 70px;
+color: #333333;
+}
+a {
+text-decoration: none ;
+}
+p:hover{
+opacity: 0.78;
+}

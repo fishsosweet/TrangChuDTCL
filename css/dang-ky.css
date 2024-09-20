@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+font-size: 15px;
+font-family: "Montserrat", sans-serif;
+overflow: hidden;
+}
+#dau img {
+
+width: 1460px;
+height:700px;
+
+}
+#dau p img {
+
+width: 170px;
+height:170px;
+position: relative;
+bottom: 721px;
+left: 1px;
+border: none;
+
+
+}
+
+#content {
+width: 600px;
+height: 650px;
+position: relative;
+bottom: 850px;
+left: 450px;
+}
+I{
+color: #436EEE;
+}
+B{
+color: #8B3A62;
+}
+h1{
+text-align:center;
+color: #838B8B;
+}
+#left{
+width:195px ;
+height: 25px;
+text-align: right;
+}
+#right{
+width:400px ;
+float: right;
+position: relative;
+bottom: 25px;
+height: 25px;
+}
+#right img:hover{
+opacity: 0.78;
+}
+#content1 {
+width: 600px;
+height: 50px;
+}
+#content1 I {
+color: #8B8B7A;
+position: relative;
+bottom: 45px;
+}

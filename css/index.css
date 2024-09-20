@@ -1,0 +1,415 @@
+body {
+    overflow-x:hidden;
+    background-color: 	black   ;
+    height: auto;
+}
+    *{
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TrangChu{
+        background-color: 	#000033;
+        width: 1520px;
+        position: relative;
+        top: -10px;
+        height: 3750px;
+        overflow: hidden;
+    }
+    .head{
+        width: auto;
+        height: 50px;
+
+    }
+    .menungang{
+        background-color:black ;
+        width: auto;
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+        border-bottom:1px solid blue ;
+    }
+    .list1 li{
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        float: left;
+        line-height: 50px;
+
+        position: relative;
+        left: 90px;
+        top:-10px;
+    }
+    .list2 li{
+        width: 150px;
+        height: 30px;
+        display: inline-block;
+        float: right;
+        line-height: 50px;
+
+        position: relative;
+        right: 90px;
+        top:-10px;
+    }
+    .list1 li a{
+        font-size: 18px;
+        color: aliceblue;
+        position: relative;
+        text-decoration-color:  black;
+        top:-10px;
+    }
+    .list2 li a{
+        font-size: 18px;
+        text-decoration-color:  black;
+        color: aliceblue;
+        position: relative;
+        top:-10px;
+    }
+    .menungang a:hover{
+        display: block;
+        text-decoration-color:  blue;
+    }
+    .tamgiac{
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent ;
+  border-right: 40px solid transparent;
+  border-top: 60px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-20px
+}
+.logo{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+top: -50px;
+}
+.trailer{
+    width: 1200px;
+    height: 700px;
+}
+.nencontent{
+    border:3px solid #FFCC99 ;
+    border-left:3px solid #FFCC99 ;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    left: -20px;
+    top:-600px;
+}
+.nencontent1{
+    border:3px solid #FFCC99 ;
+    border-left:3px solid #FFCC99 ;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    left: 20px;
+    top:-1280px;
+}
+.logo18{
+    width: 90px;
+    position: fixed;
+    top: 20px;
+    border: 1px solid white;
+}
+.playnow{
+    color: black;
+    background-color: yellow;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    top: 950px;
+    left: 660px;
+}
+.decPlayNow1{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 945px;
+    left: 653px;
+    border-left:3px solid #FFCC99  ;
+    border-top:3px solid #FFCC99  ;
+}
+.decPlayNow2{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top: 965px;
+    left: 733px;
+    border-right:3px solid #FFCC99  ;
+    border-bottom:3px solid #FFCC99  ;
+}
+.decPlayNow4{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top: 961px;
+    left: 685px;
+    border-right:3px solid #FFCC99  ;
+    border-bottom:3px solid #FFCC99  ;
+}
+.tintucmoinhat{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    position: relative;
+    top:-690px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFCC99 ;
+}
+.content2{
+    position: relative;
+    top:-600px;
+}
+.cactintuc{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    top:-690px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tintuc1{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    left: -250px;
+    top:30px;
+    text-align: center;
+    border: 1px solid #FFCC99;
+}
+.tintuc2{
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    left: 330px;
+    top: -470px;
+    text-align: center;
+    border: 1px solid #FFCC99;
+}
+.tintuc3{
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    left: 330px;
+    top: -450px;
+    text-align: center;
+    border: 1px solid #FFCC99;
+    clear: left;
+}
+.tintuc4{
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    left: 330px;
+    top: -430px;
+    text-align: center;
+    border: 1px solid #FFCC99;
+    clear: right;
+}
+.cactintuc a{
+    text-decoration:none;
+}
+.cactintuc img{
+    transition-duration: 0.3s;
+    margin: 0 10px 5px 0;
+    width: 100px;
+}
+.cactintuc img:hover{
+    transform: scale(1.05);
+    width: 100px;
+    height: 100px;
+}
+.xemthem{
+    width: 200px;
+    height: 40px;
+    clear: both;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: -400px;
+}
+.nen3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top:-1500px;
+    left: -800px;
+    animation-name: nen3;
+    animation-duration: 2s;
+}
+@keyframes nen3{
+    0%{
+    top:-1500px;
+    left: -1300px;
+    }
+    100%{
+    top:-1500px;
+    left: -800px;
+    }
+
+}
+.nen4{
+    position: relative;
+    top:-1500px;
+    width: 200px;
+    height: 20px;
+    left: 300px;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 2s, transform 2s;
+}
+.in-view {
+    opacity: 1;
+    transform: translateX(0);
+}
+.content3{
+    position: relative;
+    top:-1500px;
+    width: 100%;
+
+}
+.nen5{
+    float: right;
+    position: relative;
+    left: -50px;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 2s, transform 2s;
+}
+.in-view1 {
+    opacity: 1;
+    transform: translateX(0);
+}
+.nen6{
+    position: relative;
+    top:250px;
+    left: 100px;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 2s, transform 2s;
+}
+.in-view3 {
+    opacity: 1;
+    transform: translateX(0);
+}
+.nen6 img{
+    width: 380px;
+}
+.in-view1 {
+    opacity: 1;
+    transform: translateX(0);
+}
+.thongtincontent3{
+    position: relative;
+    top:180px;
+    left: 100px;
+    width: 800px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    font-size: 60px;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 2s, transform 2s;
+}
+.in-view2 {
+    opacity: 1;
+    transform: translateX(0);
+}
+.thongtin2content3{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: -100px;
+    float: right;
+    text-align: center;
+    font-size: 60px;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 2s, transform 2s;
+}
+.in-view4 {
+    opacity: 1;
+    transform: translateX(0);
+}
+.footer{
+    width: 100%;
+    height:1000px;
+    background-color: black;
+    position: relative;
+    top:-1558px;
+    border-top: 2px solid blue;
+}
+.mxh{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+.vienmxh{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    line-height: 30px;
+    position: relative;
+    left: 300px;
+    margin: 10px;
+}
+.thuonghieu{
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    clear: left;
+    position: relative;
+    top:-10px;
+    left: -15px;
+}
+.CPC{
+    width: 120px;
+}
+.riot{
+    width: 200px;
+}
+.vng{
+    width: 120px;
+}
+.loinhan{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top:120px;
+}
+
+.sub-menu li{
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    background-color: black   ;
+} 
+.sub-menu {
+position: relative;
+width: 150px;
+left: 91px;
+top:-10px;
+display: none;
+
+} 
+.list2 li:hover .sub-menu {
+display: block;
+border-right: 1px solid #000033;
+}

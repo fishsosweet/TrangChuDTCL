@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trang Đóng Góp Ý Kiến</title>
+<link rel="stylesheet" href="/css/dong-gop-y-kien.css">
+<script src="/js/dong-gop-y-kien.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Đóng Góp Ý Kiến</h1>
+    <form id="commentForm" action="https://trangchudautruongchanly.000webhostapp.com/">
+        <div class="form-group">
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Số Điện Thoại:</label>
+            <input type="tel" id="phone" name="phone"  required>
+            <small>Định dạng: 0123456789</small>
+        </div>
+        <div class="form-group">
+            <label for="comment">Ý Kiến:</label>
+            <textarea id="comment" name="comment" placeholder="Nhập ý kiến của bạn..." required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="attachment">File Đính Kèm:</label>
+            <input type="file" id="attachment" name="attachment">
+        </div>
+        <button type="submit">Gửi Ý Kiến</button>
+    </form>
+    <div id="comments"></div>
+</div>
+
+</body>
+</html>

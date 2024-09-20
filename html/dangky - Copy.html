@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Đăng ký</title>
+	<link rel="stylesheet" type="text/css" href="/css/dang-ky.css">
+<script src="/js/dang-ky.js"></script>
+</head>
+<body>
+<form action="https://trangchudautruongchanly.000webhostapp.com/" id="dangky" name="dangky" method="post" onsubmit="return kiemtra()">
+<div id="dau">
+	<img src="/images-videos\nendk.jpg" style="border-radius: 10px;">
+	<p><img src="/images-videos\logodk.jpg" style="border-radius: 10px;position: relative;width: 150px;height: 150px;top:-719px"></p>
+	<div id="content">
+		<h1>Đăng Ký</h1>
+		Hãy tham gia <I>Đấu Trường Chân Lý</I> ngay để có nhiều ưu đãi!
+		<hr>
+	    <div id="left">
+			Họ tên:
+		</div>
+		<div id="right">
+			<input type="text" name="ten" size="30">
+		</div>
+		<div id="left">
+			Giới tính:
+		</div>
+		<div id="right">
+			<select style="width: 100px;"><option>Nam</option><option>Nữ</option></select>
+		</div>
+		<div id="left">
+			Ngày sinh:
+		</div>
+		<div id="right">
+			<input type="text" name="ngay" size="5" placeholder="Ngày ">
+			<input type="text" name="thang" size="5"placeholder="Tháng ">
+			<input type="text" name="nam" size="5"placeholder="Năm ">
+		</div>
+		<div id="left">
+			Sống tại:
+		</div>
+		<div id="right">
+			<input type="text" name="ns" size="30">
+		</div>
+			<B>Liên kết và mật khẩu</B>
+			
+        <div id="left">
+			Liên kết :
+		</div>
+		<div id="right">
+			<a href="dangnhapfb.html"><img src="/images-videos\logofb.png" style="width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	border: none;"></a>
+			<a href="dangnhapzalo.html"><img src="/images-videos\logozalo.jpg" style="width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	border: none;"></a>
+			<a href="dangnhapgmail.html"><img src="/images-videos\logogmail.jpg" style="width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	border: none;"></a>
+		</div>
+		<div id="left">
+			Mật khẩu:
+		</div>
+		<div id="right">
+			<input type="password" name="mk" id="mk" size="30" style="position: relative;bottom: 15px;" onKeyUp="doihinh();">
+			<img src="/images-videos\1.gif" style="position: relative;left: 20px;width: 80px;height: 30px;border-radius: none;bottom: 15px;border: none;" name="pic">
+		</div>
+		<div id="content1">
+			<br>
+			<br>
+			<p><I>*Mật khẩu phải có ít nhất 8 ký tự bao gồm chữ hoa, chữ thường, chữ số và ký tự đặt biệt. Ví dụ: Phat@133</I></p>
+		</div>
+		<div id="left">
+			Nhập lại mật :
+		</div>
+		<div id="right">
+			<input type="password" name="nlmk" id="nlmk" size="30">
+		</div>
+		<div>
+			<img src="/images-videos\1.jpg" style="width: 150px;height: 80px;position: relative;left:230px;border: none;" id="anh">
+		</div>
+		
+		<div id="left">
+			Nhập mã hiển thị :
+		</div>
+		<div id="right">
+			<input type="text"name="nmht" size="30">
+		</div>
+		<br>
+		<div>
+			<br>
+			Khi nhấn nút "Tạo tài " dưới đây, tôi xác nhận rằng tôi đã đọc và đồng ý với <a href="dkdv.html"><I>Điều khoản Sử dụng Dịch vụ</I></a>. Mọi thắc mắc xin <a href="/html/lienhe.html"><I>Liên hệ tại đây.</I></a>
+		</div>
+		<div>
+			<input type="submit" name="t2" value="Tạo tài khoản"style="background-color:#D1EEEE;position: relative;left: 250px;border: none;top: 10px;">
+		</div>
+	</div>
+</div>
+</form>
+<div>
+	<button onclick="doimaanh();" style="background-color: #C1FFC1;position: relative;left: 700px;border: none; bottom: 1050px;">Thử mã khác </button>
+</div>
+</body>
+</html>

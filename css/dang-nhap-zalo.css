@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+		body {
+			font-family: "Montserrat", sans-serif;
+			font-size: 17px;
+		}
+		#web {
+			width: 600px;
+			height: 200px;
+			position:relative;
+			left: 650px;
+		}
+		#webb img {
+			border-radius: 50%;
+		}
+		#webbb img {
+			position: relative;
+			bottom: 175px;
+			right: 68px;
+			width: 310px;
+		}
+		#fb h1 {
+			color:#0066CC;
+			position: relative;
+			bottom: 198px;
+			left: 50px;
+		}
+		#fb img {
+			border-radius: 50%;
+			width: 80px;
+			position: relative;
+			bottom: 180px;
+			left: 50px;
+		}
+		#center {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 88vh;
+		}
+		form {
+			border: 1px solid #DDDDDD;
+			border-radius:5px ;
+			padding: 30px;
+			
+		}
+		h3 {
+			text-align: center;
+			font-size: 24px;
+			font-weight: 500;
+		}
+		input {
+			height: 30px;
+			width: 400px;
+			outline: none;
+			border: 1px solid #DDDDDD;
+			padding: 10px;
+			border-radius: 5px;
+			font-size: inherit;
+			color: #444444;
+			transition: all 0.3s ease-in-out;
+		}
+		#dangnhap {
+			margin-bottom: 15px;
+			position: relative;
+		}
+		label {
+			position: absolute;
+			padding: 0px 5px;
+			left: 5px;
+			top: 50%;
+			transform: translateY(-50%);
+			pointer-events: none;
+			transition: all 0.3s ease-in-out;
+			background-color: white;
+		}
+		#dangnhap input:focus +label,#dangnhap input:valid +label{
+			top: 0px;
+			font-size: 13px;
+			font-weight: 500;
+			color: #0066CC;
+		}
+		#dangnhap input:focus {
+			border: 2px solid #0066CC;
+		}
+		input#dn {
+			background-color:#0066CC ;
+			color: white;
+			height: 50px;
+			width: 420px;
+			cursor: pointer;
+		}
+		input#dn:hover {
+			opacity: 0.78;
+		}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
+body {
+    font-family: "Questrial", sans-serif;
+    overflow: hidden;
+}
+#content {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    bottom: 800px;
+    left: 300px;
+}
+#dangnhap {
+    position: relative;
+    left: 700px;
+    bottom: 2000px;
+}
+#dangky {
+    position: relative;
+    left: 700px;
+    bottom: 1980px;
+}
+input {
+    width: 130px;
+    height: 35px;
+    background-color:#87CEEB;
+    border-radius: 30px;
+    border: none;
+    color: #1C1C1C;
+    box-shadow:2px 2px 5px black ;
+}
+input:hover {
+    opacity: 0.75;
+    cursor: pointer;
+    color: #483D8B;
+}
+
+#label {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    right: 239px;
+   bottom: 420px;
+    animation: slideShow 10s infinite;
+}
+#label1 {
+float:right;
+height: 250px;
+width:  500px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@keyframes slideShow
+{
+20%{
+transform: translate(30px);
+}
+}
+#nen {
+
+position: relative;
+right: 415px;
+bottom: 20px;
+}
+#phat {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    right: 500px;
+   bottom: 1510px;
+    animation: slideShow1 10s infinite;
+}
+#phat1 {
+float:right;
+height: 250px;
+width:  1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@keyframes slideShow1
+{
+30%{
+transform: translate(50px);}
+
+}
+#phat2 {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    right: 280px;
+   bottom: 840px;
+    animation: slideShow1 10s infinite;
+}
+#phat22 {
+float:right;
+height: 250px;
+width:  500px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+#chu {
+position: relative;
+bottom: 2200px;
+font-size: 35px;
+left: 200px;
+color: white;
+width: 500px;
+height: 50px;
+}
+I {
+color: #97FFFF;
+}
+#may {
+height: 1000px;
+width: 700px;
+position: relative;
+right: 1200px;
+position: relative;
+animation: slideShow2 40s infinite;
+}
+#hh {
+float:left;
+display: flex;
+position: relative;
+bottom: 3300px;
+justify-content: center;
+align-items: center;
+}
+#kk {
+position: relative;
+bottom: 3850px;
+left: 700px;
+justify-content: center;
+align-items: center;
+width: 1000px;
+}
+#pp {
+position: relative;
+bottom: 4650px;
+right: 490px;
+justify-content: center;
+align-items: center;
+
+}
+@keyframes slideShow2
+{
+100%{
+transform: translate3d(3100px, 50px, 100px);
+}
+}
+#ff {
+position: relative;
+bottom: 2450px;
+right: 320px;
+}

@@ -1,0 +1,106 @@
+body {
+    overflow-x:hidden;
+    height: auto;
+    background-color: 	#000033   ;
+}
+    *{
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TrangChu{
+        background-color:#000033 ;
+        width: 1520px;
+        position: relative;
+        top: -10px;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .head{
+        width: 100%;
+        height: 60%;
+    }
+    .head img{
+        width: 100%;
+        height: 100%;
+    }
+    .center{
+        width: 40%;
+        height: 300px;
+        text-align: center;
+        position: relative;
+        top:30px;
+    }
+    .may{
+        width: 500px;
+        height: 200px;
+        float: right;
+        position: relative;
+        top:-90px;
+        z-index: 10;
+        right: 10px;
+    }
+    .nui{
+        width: 500px;
+        height: 200px;
+        float: left;
+        position: relative;
+        top:-90px;
+        z-index: 10;
+        left: 10px;
+    }
+    .nui1{
+        width: 500px;
+        height: 200px;
+        float: left;
+        position: relative;
+        top:-90px;
+        z-index: 10;
+        left: 10px;
+    }
+    .khung1{
+        width: 98%;
+        height: 550px;
+        border: 2px solid #FFCC99;
+        position: absolute;
+        top:20px;
+        left: 10px;
+    }
+    .khung2{
+        width: 98%;
+        height: 200px;
+        border-left: 2px solid #FFCC99;
+
+        position: relative;
+        top: -200px;
+    }
+    .khung3{
+        width: 98%;
+        height: 200px;
+        border-left: 2px solid #FFCC99;
+        border-right: 2px solid #FFCC99;
+        position: relative;
+        top: -250px;
+        left: 10px;
+    }
+    .khung4{
+        width: 98%;
+        height: 200px;
+        border-right: 2px solid #FFCC99;
+        position: relative;
+        top:-600px;
+        left: -5px;
+    }
+    .dn {
+        background-color: #FFCC99;
+			color: black;
+			height: 50px;
+			width: 150px;
+			cursor: pointer;
+            position: relative;
+            border: 2px solid black;
+            font-size: 15px;
+		}
+	.dn:hover {
+			opacity: 0.9;
+		}
